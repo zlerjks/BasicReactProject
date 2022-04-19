@@ -1,6 +1,8 @@
 import Age from "./Age";
 import Username from "./Username";
 import Button from "./Button";
+import Card from "./Card";
+import '../Css/Form.css'
 
 function TheForm (props) {
     function defaultSubmit (e) {
@@ -12,13 +14,13 @@ function TheForm (props) {
         e.target.reset(); //resets the input fields
     }
     return (
-        <div>
-            <form onSubmit={defaultSubmit} >
+        <Card>
+            <form className="formstyle" onSubmit={defaultSubmit} >
                 <Username />
                 <Age />
                 <Button />
             </form>
-        </div>
+        </Card>
     );
 }
 

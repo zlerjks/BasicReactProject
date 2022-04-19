@@ -1,7 +1,9 @@
+import '../Css/Form.css'
+
 function Age (props) {
     return (
-        <div>
-            <label>Age (Years)</label>
+        <div className='inputFields'>
+            <label className='labelname'>Age (Years)</label>
             <input type='text' />
         </div>
     )

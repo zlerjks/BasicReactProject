@@ -1,6 +1,8 @@
+import '../Css/Form.css'
+
 function Button () {
     return (
-        <button>Submit</button>
+        <button className='button-18'>Submit</button>
     );
 };
 

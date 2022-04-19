@@ -1,8 +1,10 @@
+import Card from "./Card";
+
 function UserList (props) {
     return (
-        <div>
+        <Card>
             <p>{props.enteredname} {props.enteredage}</p>
-        </div>
+        </Card>
     )
 }
 

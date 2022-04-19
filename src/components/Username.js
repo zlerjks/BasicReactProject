@@ -1,7 +1,9 @@
+import '../Css/Form.css'
+
 function Username (props) {
     return (
-        <div>
-            <label>Username</label>
+        <div className='inputFields'>
+            <label className='labelname username'>Username</label>
             <input type='text' />
         </div>
     )
