@@ -1,7 +1,7 @@
-function UserList () {
+function UserList (props) {
     return (
         <div>
-            <p>Dummy Text (User List goes here)</p>
+            <p>{props.enteredname} {props.enteredage}</p>
         </div>
     )
 }

@@ -1,15 +1,22 @@
-import { useState } from './react'
+import { useState } from 'react'
 import logo from './logo.svg';
 import './App.css';
 import TheForm from './components/TheForm';
 import UserList from './components/UserList';
 
 function App() {
+  const [name, newUser] = useState('')
+  const [age, newAge] = useState('')
 
+  function dataUpdater (name, age) {
+    newUser(name);
+    newAge(age);
+
+  }
   return (
     <div className="App">
-      <TheForm />
-      <UserList />
+      <TheForm submitHandler = {dataUpdater} /> 
+      <UserList enteredname = {name} enteredage = {age}/>
     </div>
   );
 }
