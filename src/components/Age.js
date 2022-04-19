@@ -1,8 +1,8 @@
-function Age () {
+function Age (props) {
     return (
         <div>
             <label>Age (Years)</label>
-            <input type='text'/>
+            <input type='text' />
         </div>
     )
 }

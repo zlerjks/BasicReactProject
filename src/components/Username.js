@@ -1,4 +1,4 @@
-function Username () {
+function Username (props) {
     return (
         <div>
             <label>Username</label>

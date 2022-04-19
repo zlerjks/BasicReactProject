@@ -8,6 +8,8 @@ function TheForm (props) {
         const inputname = (e.target[0].value);
         const inputage = (e.target[1].value);
         props.submitHandler(inputname, inputage);
+
+        e.target.reset(); //resets the input fields
     }
     return (
         <div>
