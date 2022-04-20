@@ -1,9 +1,11 @@
 import Card from "./Card";
+import UserItem from "./UserItem";
+import '../Css/Form.css';
 
 function UserList (props) {
     return (
         <Card>
-            <p>{props.enteredname} {props.enteredage}</p>
+            <UserItem name = {props.enteredname} age = {props.enteredage}/>
         </Card>
     )
 }

@@ -44,3 +44,19 @@ button:hover {
   color: #ffffff;
 }
 
+.userlist {
+    display: flex;
+    justify-content: center;
+    border: 15px solid rgb(182, 175, 175);
+    margin: 10px;
+    border-radius: 50px;
+    
+}
+
+.enteredname {
+    margin-right: 10px;
+}
+
+.userlist p{
+    font-weight: 700;
+}
